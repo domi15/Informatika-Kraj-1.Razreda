@@ -8,4 +8,8 @@ function WhatTheDogDoing() {
     document.getElementById("c").innerHTML = m/2;
     document.getElementById("slika").src = "Pic.jpg";
     
-}  
+}
+function TeslaJeHrvat() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+  }

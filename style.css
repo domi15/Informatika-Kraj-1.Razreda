@@ -12,10 +12,6 @@ body {
 
 }
 
-#mutno {
-    filter: blur 12 px;
-}
-
 .DidntAsk {
     text-align: center;
 }

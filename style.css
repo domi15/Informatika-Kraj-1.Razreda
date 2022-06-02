@@ -1,8 +1,9 @@
 body {
-    font-family: Calibri;
+    font-family: 'Poppins', sans-serif;
     background-color: #cccccc;
     color: black;
     padding: 20px;
+    font-size: 15px;
 }
 
 .dark-mode {

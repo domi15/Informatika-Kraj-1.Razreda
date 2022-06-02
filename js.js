@@ -6,10 +6,9 @@ function WhatTheDogDoing() {
     document.getElementById("a").innerHTML = "Sada ćemo podijeliti kvadrat na četiri jednaka dijela"
     document.getElementById("b").innerHTML = "Možemo vidjeti kako stranice AE i AH sada tangente kružnice te kako su obje duljine a/2, a to je:";
     document.getElementById("c").innerHTML = m/2;
-    document.getElementById("slika").src = "Pic.jpg";
+
     
-    document.getElementById("id=mutno")
-    style.filter="blur 0px";
+    document.getElementById("mutno").style.filter = "blur 0px";
     
 }
 function DarkMode() {

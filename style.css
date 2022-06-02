@@ -1,15 +1,15 @@
 body {
     font-family: Calibri;
-    background-image: url("white.jpg");
+    background-color: #858585;
     color: black;
 }
 
 .dark-mode {
     color: white;
-    background-color: #353535 !important;
+    background-color: #3d3d3d !important;
 
 }
 
-mutno {
+#mutno {
     filter: blur 12 px;
 }

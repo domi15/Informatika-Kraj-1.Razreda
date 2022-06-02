@@ -32,10 +32,12 @@ body {
         font-size: 88%;
         line-height: 1.5em;
         width: 22em;
-        border-radius: 20px;
+        border-radius: 10px;
+        border-width: 5px;
 }
 
 .gumb {
+<<<<<<< HEAD
     display: inline-block;
 	text-decoration: none;
 	color: #fff;
@@ -47,3 +49,11 @@ body {
 	cursor: pointer;
 	
 }
+=======
+    
+}
+
+.hidden {
+    display: block;
+  }
+>>>>>>> 45b950c41a4cc5dbde471f135e93d03fff81eb45

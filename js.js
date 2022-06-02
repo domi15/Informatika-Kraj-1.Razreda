@@ -9,6 +9,9 @@ function WhatTheDogDoing() {
 
     
     document.getElementById("mutno").style.filter = "blur 0px";
+
+    var element = document.body;
+    element.classList.toggle("hidden")
     
 }
 function DarkMode() {

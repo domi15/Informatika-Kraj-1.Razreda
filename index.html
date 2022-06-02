@@ -9,31 +9,34 @@
   <link rel="stylsheet" href="style.css">
 </head>
 <body>
-  <div style="text-align: right;">
-    <img src="moon.jpg" onclick="DarkMode()" style="text-align: right;"></img>
-  </div>
-  <h1 style="font-size: 50px; text-align: center;">Pitotov Teorem</h1>
-<table class="infobox biography vcard"><tbody><tr><th colspan="2" class="infobox-above" style="font-size:125%;"><div class="fn" style="display:inline">Henri Pitot</div></th></tr><tr><td colspan="2" class="infobox-image"><a href="Henri_de_Pitot.jpg" class="image"><img alt="Henri de Pitot.jpg" src="Henri_de_Pitot.jpg" decoding="async" width="220" height="297" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Henri_de_Pitot.jpg/330px-Henri_de_Pitot.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Henri_de_Pitot.jpg/440px-Henri_de_Pitot.jpg 2x" data-file-width="1888" data-file-height="2552"></a><div class="infobox-caption">Henri Pitot</div></td></tr><tr><th scope="row" class="infobox-label">Rođen</th><td class="infobox-data"><span style="display:none">(<span class="bday">1695-05-03</span>)</span>3 Svibnja 1695<br><div style="display:inline" class="birthplace"><a>Aramon</a>, <a>Gard</a>, <a>Francuska</a></div></td></tr><tr><th scope="row" class="infobox-label">Umro</th><td class="infobox-data">27 Prosinac 1771<span style="display:none">(1771-12-27)</span><br><div style="display:inline" class="deathplace"><a>Aramon</a>, <a>Gard</a>, <a>Francuska</a></div></td></tr><tr><th scope="row" class="infobox-label">Nacionalnost</th><td class="infobox-data category"><a>Francuska</a></td></tr><tr><th scope="row" class="infobox-label">Poznat&nbsp;još za</th><td class="infobox-data"><a>Pitotova cijev</a></td></tr><tr><td colspan="2" class="infobox-full-data"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1066479718"><b>Znanstvena karijera</b></td></tr><tr><th scope="row" class="infobox-label">Polja</th><td class="infobox-data category"><a>Hidraulika</a></td></tr><tr style="display:none"><td colspan="2">
-</td></tr></tbody></table>
-  <div class="DidntAsk">
-    <p>U geometriji, Pitotov teorem, nazvan po francuskom inženjeru Henriju Pitotu, kaže da su u tangencijalnom četverokutu (tj. onom u koji se može upisati krug) dva zbroja duljina suprotnih strana jednaka. Obje sume duljina jednake su poluperimetru četverokuta,
-    </p>
-    <p class="top">Teorem je logična posljedica činjenice da dva tangentna odsječka iz točke izvan kružnice u kružnicu imaju jednake duljine. Postoje četiri jednaka para tangentnih segmenata, a oba zbroja dviju strana mogu se rastaviti u zbrojeve ove četiri duljine tangentnih segmenata. Točna je i obrnuta implikacija: kružnica se može upisati u svaki konveksni četverokut u kojem su duljine suprotnih strana jednake vrijednosti.
-    </p>
-    <p>Henri Pitot je dokazao svoj teorem 1725. godine, dok je obrnuto dokazao švicarski matematičar Jakob Steiner 1846. godine.</p>
-    <p>Pitotov teorem generalizira na tangencijalne 2n-kute, u kojem su slučaju dva zbroja alternativnih strana jednaka.</p>
-    <h3 style="font-size: 30px;">Dokaz</h3>
-    <p>Dokaz ovog teorema se najlakše može vidjeti na primjeru kvadrata</p>
-    <p>Kvadratu upisana kružnica se uvijek dodiruje u polovištima stranica</p>
-    <button onclick="WhatTheDogDoing()" class="gumb">Pokreni dokaz</button>
-  </div>
-  <div class="dokaz">
-    <p id="d"></p><p id="duljina"></p>
-    <p id="e"></p><p id="povrsina"></p>
-    <p id="a"></p>
-    <p id="b"></p>
-    <p id="c"></p>
-  </div>
+  <div >
+    <div style="text-align: right;">
+      <img src="moon.jpg" onclick="DarkMode()" style="text-align: right; cursor: pointer;"></img>
+    </div>
+    <h1 style="font-size: 50px; text-align: center;">Pitotov Teorem</h1>
+  <table class="infobox biography vcard"><tbody><tr><th colspan="2" class="infobox-above" style="font-size:125%;"><div class="fn" style="display:inline">Henri Pitot</div></th></tr><tr><td colspan="2" class="infobox-image"><a href="Henri_de_Pitot.jpg" class="image"><img alt="Henri de Pitot.jpg" src="Henri_de_Pitot.jpg" decoding="async" width="220" height="297" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Henri_de_Pitot.jpg/330px-Henri_de_Pitot.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Henri_de_Pitot.jpg/440px-Henri_de_Pitot.jpg 2x" data-file-width="1888" data-file-height="2552"></a><div class="infobox-caption">Henri Pitot</div></td></tr><tr><th scope="row" class="infobox-label">Rođen</th><td class="infobox-data"><span style="display:none">(<span class="bday">1695-05-03</span>)</span>3 Svibnja 1695<br><div style="display:inline" class="birthplace"><a>Aramon</a>, <a>Gard</a>, <a>Francuska</a></div></td></tr><tr><th scope="row" class="infobox-label">Umro</th><td class="infobox-data">27 Prosinac 1771<span style="display:none">(1771-12-27)</span><br><div style="display:inline" class="deathplace"><a>Aramon</a>, <a>Gard</a>, <a>Francuska</a></div></td></tr><tr><th scope="row" class="infobox-label">Nacionalnost</th><td class="infobox-data category"><a>Francuska</a></td></tr><tr><th scope="row" class="infobox-label">Poznat&nbsp;još za</th><td class="infobox-data"><a>Pitotova cijev</a></td></tr><tr><td colspan="2" class="infobox-full-data"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1066479718"><b>Znanstvena karijera</b></td></tr><tr><th scope="row" class="infobox-label">Polja</th><td class="infobox-data category"><a>Hidraulika</a></td></tr><tr style="display:none"><td colspan="2">
+  </td></tr></tbody></table>
+    <div class="DidntAsk">
+      <p>U geometriji, Pitotov teorem, nazvan po francuskom inženjeru Henriju Pitotu, kaže da su u tangencijalnom četverokutu (tj. onom u koji se može upisati krug) dva zbroja duljina suprotnih strana jednaka. Obje sume duljina jednake su poluperimetru četverokuta,
+      </p>
+      <p class="top">Teorem je logična posljedica činjenice da dva tangentna odsječka iz točke izvan kružnice u kružnicu imaju jednake duljine. Postoje četiri jednaka para tangentnih segmenata, a oba zbroja dviju strana mogu se rastaviti u zbrojeve ove četiri duljine tangentnih segmenata. Točna je i obrnuta implikacija: kružnica se može upisati u svaki konveksni četverokut u kojem su duljine suprotnih strana jednake vrijednosti.
+      </p>
+      <p>Henri Pitot je dokazao svoj teorem 1725. godine, dok je obrnuto dokazao švicarski matematičar Jakob Steiner 1846. godine.</p>
+      <p>Pitotov teorem generalizira na tangencijalne 2n-kute, u kojem su slučaju dva zbroja alternativnih strana jednaka.</p>
+      <h3 style="font-size: 30px;">Dokaz</h3>
+      <p>Dokaz ovog teorema se najlakše može vidjeti na primjeru kvadrata</p>
+      <p>Kvadratu upisana kružnica se uvijek dodiruje u polovištima stranica</p>
+      <button onclick="WhatTheDogDoing()" class="gumb">Pokreni dokaz</button>
+    </div>
+    <div class="dokaz">
+      <p id="d"></p><p id="duljina"></p>
+      <p id="e"></p><p id="povrsina"></p>
+      <p id="a"></p>
+      <p id="b"></p>
+      <p id="c"></p>
+      <img src="Pic.jpg">
+    </div>
+  </div>>
   <script src="js.js"></script>
 </body>
 </html>

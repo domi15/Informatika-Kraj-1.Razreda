@@ -2,6 +2,7 @@ body {
     font-family: Calibri;
     background-color: #cccccc;
     color: black;
+    padding: 20px;
 }
 
 .dark-mode {
@@ -37,7 +38,6 @@ body {
 }
 
 .gumb {
-<<<<<<< HEAD
     display: inline-block;
 	text-decoration: none;
 	color: #fff;
@@ -49,11 +49,7 @@ body {
 	cursor: pointer;
 	
 }
-=======
-    
-}
 
-.hidden {
-    display: block;
-  }
->>>>>>> 45b950c41a4cc5dbde471f135e93d03fff81eb45
+.dokaz {
+    text-align: center;
+}

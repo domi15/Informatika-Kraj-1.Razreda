@@ -6,12 +6,11 @@ function WhatTheDogDoing() {
     document.getElementById("a").innerHTML = "Sada ćemo podijeliti kvadrat na četiri jednaka dijela"
     document.getElementById("b").innerHTML = "Možemo vidjeti kako stranice AE i AH sada tangente kružnice te kako su obje duljine a/2, a to je:";
     document.getElementById("c").innerHTML = m/2;
+    document.getElementById("d").innerHTML = "Duljina je"
+    document.getElementById("e").innerHTML = "Površina je"
 
     
     document.getElementById("mutno").style.filter = "blur 0px";
-
-    var element = document.body;
-    element.classList.toggle("hidden")
     
 }
 function DarkMode() {

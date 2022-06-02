@@ -1,9 +1,9 @@
 body {
     font-family: Calibri;
-    background-color: brown;
+    background-color: rgb(165, 165, 165) !important;
 }
 
 .dark-mode {
     color: white;
-    background-color: black !important;
+    background-color: #353535 !important;
   }

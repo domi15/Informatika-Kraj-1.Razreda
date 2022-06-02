@@ -7,6 +7,8 @@ function WhatTheDogDoing() {
     document.getElementById("b").innerHTML = "Možemo vidjeti kako stranice AE i AH sada tangente kružnice te kako su obje duljine a/2, a to je:";
     document.getElementById("c").innerHTML = m/2;
     document.getElementById("slika").src = "Pic.jpg";
+    document.getElementById("id=mutno")
+    style.filter="blur 0px";
     
 }
 function DarkMode() {
@@ -14,7 +16,3 @@ function DarkMode() {
     element.classList.toggle("dark-mode");
   }
   
- function MutnoTiuGlavi(){
-	document.getElementById("id=mutno")
-	    style.filter="blur 0px";
- }

@@ -6,4 +6,8 @@ body {
 .dark-mode {
     color: white;
     background-color: #353535 !important;
-  }
+
+}
+
+mutno {
+    filter: blur 12 px;

@@ -17,3 +17,4 @@ function DarkMode() {
  function MutnoTiuGlavi(){
 	document.getElementById("id=mutno")
 	    style.filter="blur 0px";
+ }

@@ -1,7 +1,7 @@
 body {
     font-family: Calibri;
     background-image: url("white.jpg");
-    color: white;
+    color: black;
 }
 
 .dark-mode {
@@ -12,3 +12,4 @@ body {
 
 mutno {
     filter: blur 12 px;
+}

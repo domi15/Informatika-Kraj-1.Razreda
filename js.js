@@ -8,6 +8,7 @@ function WhatTheDogDoing() {
     document.getElementById("c").innerHTML = m/2;
     document.getElementById("d").innerHTML = "Duljina je"
     document.getElementById("e").innerHTML = "Površina je"
+    document.getElementById("slika").src = "Pic.jpg"
     
 }
 function DarkMode() {

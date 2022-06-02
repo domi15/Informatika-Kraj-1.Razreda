@@ -1,6 +1,6 @@
 body {
     font-family: Calibri;
-    background-color: #858585;
+    background-color: #cccccc;
     color: black;
 }
 
@@ -22,8 +22,8 @@ body {
         text-align: center;
     padding: 15%;
         border: 1px solid #a2a9b1;
-        border-spacing: 3px;
-        background-color: #858585;
+        border-spacing: 8px;
+        background-color: #cccccc;
         color: black;
         margin: 0.5em 0 0.5em 1em;
         padding: 0.2em;
@@ -32,4 +32,9 @@ body {
         font-size: 88%;
         line-height: 1.5em;
         width: 22em;
+        border-radius: 20px;
+}
+
+.gumb {
+    
 }

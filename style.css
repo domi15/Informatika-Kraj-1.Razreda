@@ -48,13 +48,13 @@ body {
 	background: transparent;
 	position: relative;
 	cursor: pointer;
-	
+    transition: 0.3s;
 }
 
 .gumb:hover{
-	border:1px solid #08B9FC;
+	border: 4px solid #08B9FC;
     background: #08B9FC;
-	transition: 1s;
+    transition: 1s;
 }
 
 

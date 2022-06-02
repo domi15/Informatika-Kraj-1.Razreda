@@ -1,0 +1,9 @@
+body {
+    font-family: Calibri;
+    background-color: brown;
+}
+
+.dark-mode {
+    color: white;
+    background-color: black !important;
+  }

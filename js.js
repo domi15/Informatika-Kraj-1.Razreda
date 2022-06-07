@@ -2,7 +2,7 @@ function WhatTheDogDoing() {
     var x = 0
     n = prompt('Unesite najmanju duljinu stranice A')
     var m = n
-    var broj = num.toString(m)
+    var broj = String(m)
     o = m / 2
     document.getElementById('duljina').innerHTML = m
     document.getElementById('povrsina').innerHTML = m*m
@@ -10,7 +10,7 @@ function WhatTheDogDoing() {
     document.getElementById("b").innerHTML = "Možemo vidjeti kako stranice AE i AH sada tangente kružnice te kako su obje duljine a/2, a to je:";
     while (x < 10) {
         o = o + 10
-        var t = num.toString(o)
+        var t = String(o)
         broj = broj + t
         x = x + 1
     }

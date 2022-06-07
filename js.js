@@ -2,8 +2,8 @@ function WhatTheDogDoing() {
     var x = 0
     n = prompt('Unesite najmanju duljinu stranice A')
     var m = n
-    var broj = String(m)
     o = m / 2
+    var broj = String(o)
     document.getElementById('duljina').innerHTML = m;
     document.getElementById('povrsina').innerHTML = m*m;
     document.getElementById("a").innerHTML = "Sada ćemo podijeliti kvadrat na četiri jednaka dijela";

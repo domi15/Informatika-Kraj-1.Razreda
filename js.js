@@ -11,7 +11,7 @@ function WhatTheDogDoing() {
     while (x < 10) {
         o = o + 10;
         var t = String(o);
-        broj = broj + " " + t;
+        broj = broj + "  " + t;
         x = x + 1;
     }
     document.getElementById("c").innerHTML = broj;

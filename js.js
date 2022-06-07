@@ -7,7 +7,7 @@ function WhatTheDogDoing() {
     document.getElementById('duljina').innerHTML = m;
     document.getElementById('povrsina').innerHTML = m*m;
     document.getElementById("a").innerHTML = "Sada ćemo podijeliti kvadrat na četiri jednaka dijela";
-    document.getElementById("b").innerHTML = "Možemo vidjeti kako stranice AE i AH sada tangente kružnice te kako su obje duljine a/2, a to je:";
+    document.getElementById("b").innerHTML = "Možemo vidjeti kako stranice AE i AH sada tangente kružnice te kako su obje jednake duljin, te za jednako se povećavaju:";
     while (x < 10) {
         o = o + 10;
         var t = String(o);

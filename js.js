@@ -1,5 +1,5 @@
 function WhatTheDogDoing() {
-    x = 0
+    var x = 0
     n = prompt('Unesite najmanju duljinu stranice A')
     var m = n
     var broj = num.toString(m)
@@ -11,8 +11,8 @@ function WhatTheDogDoing() {
     while (x < 10) {
         o = o + 10
         var t = num.toString(o)
-        broj = broj + o
-        var x = x + 1
+        broj = broj + t
+        x = x + 1
     }
     document.getElementById("c").innerHTML = broj;
     document.getElementById("d").innerHTML = "Duljina je"

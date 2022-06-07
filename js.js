@@ -3,14 +3,15 @@ function WhatTheDogDoing() {
     n = prompt('Unesite najmanju duljinu stranice A')
     var m = n
     num = m
+    o = m / 2
     document.getElementById('duljina').innerHTML = m
     document.getElementById('povrsina').innerHTML = m*m
     document.getElementById("a").innerHTML = "Sada ćemo podijeliti kvadrat na četiri jednaka dijela"
     document.getElementById("b").innerHTML = "Možemo vidjeti kako stranice AE i AH sada tangente kružnice te kako su obje duljine a/2, a to je:";
     while (counter % 2 != 2 && x < 10) {
-        w = m / 2
-        var t = num.toString(w)
-        num = num + w
+        o = o + 10
+        var t = num.toString(o)
+        num = num + o
         var x = x + 1
     }
     document.getElementById("c").innerHTML = num;
